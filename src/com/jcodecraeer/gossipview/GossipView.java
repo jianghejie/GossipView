@@ -112,7 +112,7 @@ public class GossipView extends View {
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
-		//mOuterBackGroud.draw(canvas);
+		mOuterBackGroud.draw(canvas);
 		for(int i = 0;i < mPieceNumber ; i++){
 			drawArc(i , canvas);
 		}
